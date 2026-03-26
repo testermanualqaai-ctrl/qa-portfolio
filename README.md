@@ -23,30 +23,23 @@ I am a detail-oriented Manual QA Engineer passionate about delivering high-quali
 | [Login Test Cases](test-cases/login-feature.md) | Positive and negative test scenarios for login functionality |
 | [Registration Test Cases](test-cases/registration-tests.md) | Validation testing for registration form |
 
----
-
 ### 2. Bug Reports
 
 | Document | Description |
 |----------|-------------|
-| [Bug Report #001 - Login Button Not Responding](bug-reports/sample-bug-report-1.md) | Critical bug where login button does not respond to clicks |
-
----
+| [Bug Report - Login Button Not Responding](bug-reports/sample-bug-report-1.md) | Critical bug where login button does not respond to clicks |
 
 ### 3. API Testing
 
 | Document | Description |
 |----------|-------------|
-| [API Test Cases](api-tests/api-test-cases.md) | Test cases for REST API with valid/invalid parameters |
-| [Postman Collection](api-tests/postman-collection.json) | JSON file for importing into Postman |
-
-*(Coming soon — I am actively adding API testing examples)*
+| [API Test Cases](api-tests/Api-test-cases.md) | Test cases for REST API with valid/invalid parameters |
 
 ---
 
-## 📸 Screenshots
+## 📄 Downloadable Resume
 
-All bugs reported include screenshots as evidence.
+[Download my QA Portfolio PDF](Junior%20Manual%20Qa%20Portfolio.pdf)
 
 ---
 
@@ -57,9 +50,3 @@ I am actively looking for entry-level QA positions and freelance opportunities.
 - Upwork: [https://www.upwork.com/freelancers/~01e661a853061f093b)
 - Fiverr: [https://www.fiverr.com/sellers/manualqatesrer/edit)
 - Email: testermanualqaai@gmail.com
-
----
-
-## 📄 Downloadable Resume
-
-[Download my CV (PDF)](link-to-your-pdf)
