@@ -1,25 +1,16 @@
-# Test Cases: Login & Search Features
+# Login Functionality — Test Cases
 
 ## TC-001: Successful Login
 
 | Field | Value |
 |-------|-------|
 | ID | TC-001 |
-| Title | Successful Login |
-| Preconditions | User is registered |
+| Title | Successful Login with Valid Credentials |
+| Preconditions | User is registered in the system |
 | Priority | High |
-
-### Steps
-1. Open login page
-2. Enter valid email
-3. Enter valid password
-4. Click "Login"
-
-### Expected Result
-User is logged in and redirected to dashboard
-
-### Status
-✅ Passed
+| Steps | 1. Open login page<br>2. Enter valid email<br>3. Enter valid password<br>4. Click "Login" button |
+| Expected Result | User is logged in and redirected to dashboard |
+| Status | ✅ Pass |
 
 ---
 
@@ -29,78 +20,52 @@ User is logged in and redirected to dashboard
 |-------|-------|
 | ID | TC-002 |
 | Title | Login with Incorrect Password |
+| Preconditions | User is registered in the system |
 | Priority | High |
-
-### Steps
-1. Open login page
-2. Enter valid email
-3. Enter incorrect password
-4. Click "Login"
-
-### Expected Result
-Error message: "Invalid credentials"
-
-### Status
-❌ Failed
+| Steps | 1. Open login page<br>2. Enter valid email<br>3. Enter incorrect password<br>4. Click "Login" |
+| Expected Result | Error message: "Invalid credentials" |
+| Status | ✅ Pass |
 
 ---
 
-## TC-003: Registration Validation (Empty Fields)
+## TC-003: Login with Empty Password
 
 | Field | Value |
 |-------|-------|
 | ID | TC-003 |
-| Title | Registration Validation (Empty Fields) |
-| Preconditions | User is on registration page |
-| Priority | Medium |
-
-### Steps
-1. Leave all fields empty
-2. Click "Register"
-
-### Expected Result
-Validation errors are shown
-
-### Status
-✅ Passed
+| Title | Login with Empty Password Field |
+| Preconditions | User is registered |
+| Priority | Critical |
+| Steps | 1. Open login page<br>2. Enter valid email<br>3. Leave password empty<br>4. Click "Login" |
+| Expected Result | Validation error: "Password is required" |
+| Actual Result | ❌ User is logged in without password — BUG FOUND |
+| Status | ❌ Fail |
+| Bug ID | BUG-001 |
 
 ---
 
-## TC-004: Search Functionality
+## TC-004: Login with Empty Email
 
 | Field | Value |
 |-------|-------|
 | ID | TC-004 |
-| Title | Search Functionality |
-| Priority | Medium |
-
-### Steps
-1. Open website
-2. Enter "laptop" in search
-3. Click search
-
-### Expected Result
-Relevant results are displayed
-
-### Status
-✅ Passed
+| Title | Login with Empty Email Field |
+| Preconditions | User is registered |
+| Priority | High |
+| Steps | 1. Open login page<br>2. Leave email empty<br>3. Enter valid password<br>4. Click "Login" |
+| Expected Result | Validation error: "Email is required" |
+| Status | ⏳ Pending |
 
 ---
 
-## TC-005: Search Non-Existing Product
+## TC-005: Login with Invalid Email Format
 
 | Field | Value |
 |-------|-------|
 | ID | TC-005 |
-| Title | Search Non-Existing Product |
-| Priority | Low |
-
-### Steps
-1. Enter "asdasdasd123"
-2. Click search
-
-### Expected Result
-"No results found"
-
-### Status
-✅ Passed
+| Title | Login with Invalid Email Format |
+| Preconditions | User is registered |
+| Priority | Medium |
+| Steps | 1. Open login page<br>2. Enter "testuser@" (without domain)<br>3. Enter valid password<br>4. Click "Login" |
+| Expected Result | Validation error: "Please enter a valid email address" |
+| Status | ⏳ Pending |
