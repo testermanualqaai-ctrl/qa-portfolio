@@ -33,7 +33,7 @@ I am a detail-oriented Manual QA Engineer passionate about delivering high-quali
 
 | Document | Description |
 |----------|-------------|
-| [API Test Cases](api-tests/Api-test-cases.md) | Test cases for REST API with valid/invalid parameters |
+| [API Test Cases](api-tests/Api-test-cases.md) | Test cases for REST API with valid/invalid parameters|
 
 ---
 
