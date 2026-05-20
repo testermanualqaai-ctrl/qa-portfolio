@@ -1,52 +1,93 @@
-# 👋 Hi, I'm Maxum H. — Junior Manual QA Engineer
+# 👋 Hi, I'm Maxim H. — Junior QA Engineer
 
-I am a detail-oriented Manual QA Engineer passionate about delivering high-quality software. I specialize in functional testing, creating bug reports, and API testing. Currently looking for entry-level QA opportunities and freelance projects.
+Detail-oriented QA Engineer with experience in:
+- Manual Testing
+- UI Automation Testing
+- Bug Reporting
+- API Testing
 
----
-
-## 🛠 Tech Skills
-
-| Category | Tools & Skills |
-|----------|----------------|
-| Testing Types | Manual Testing, Functional Testing, Negative Testing, UI Testing, API Testing |
-| Tools | Postman, Chrome DevTools, Jira, Git, GitHub |
-| Methodologies | Agile / Scrum |
+Passionate about software quality, test automation, and improving user experience.
 
 ---
 
-## 📂 Portfolio Projects
+# 🛠 Tech Stack
 
-### 1. Web Application Testing — Login & Registration
+## Manual Testing
+- Functional Testing
+- UI Testing
+- Negative Testing
+- Regression Testing
 
-| Document | Description |
-|----------|-------------|
-| [Login Test Cases](test-cases/login-feature.md) | Positive and negative test scenarios for login functionality |
-| [Registration Test Cases](test-cases/registration-tests.md) | Validation testing for registration form |
+## Automation Testing
+- JavaScript
+- WebdriverIO
+- Selenium
+- Page Object Model
+- Faker.js
 
-### 2. Bug Reports
+## Tools
+- Postman
+- Jira
+- Chrome DevTools
+- Git
+- GitHub
 
-| Document | Description |
-|----------|-------------|
-| [Bug Report - Login Button Not Responding](bug-reports/sample-bug-report-1.md) | Critical bug where login button does not respond to clicks |
-
-### 3. API Testing
-
-| Document | Description |
-|----------|-------------|
-| [API Test Cases](api-tests/Api-test-cases.md) | Test cases for REST API with valid/invalid parameters|
-
----
-
-## 📄 Downloadable Resume
-
-[Download my QA Portfolio PDF](Junior%20Manual%20Qa%20Portfolio.pdf)
+## Methodologies
+- Agile / Scrum
 
 ---
 
-## 🚀 How to Reach Me
+# 📂 Portfolio Projects
 
-I am actively looking for entry-level QA positions and freelance opportunities.
+## 🔹 UI Automation Testing — SauceDemo
 
-- Upwork: [https://www.upwork.com/freelancers/~01e661a853061f093b)
-- Fiverr: [https://www.fiverr.com/sellers/manualqatesrer/edit)
+Automation framework for SauceDemo using WebdriverIO and Page Object Model.
+
+### Features
+- 9 automated test cases
+- Positive & negative scenarios
+- Bug detection testing
+- Faker-generated test data
+- Page Object architecture
+
+### Technologies
+- WebdriverIO
+- JavaScript
+- Mocha
+- Faker.js
+
+### Project Link
+[Automation Project](automation-project)
+
+---
+
+## 🔹 Manual Testing
+
+### Test Cases
+- [Login Test Cases](test-cases/login-feature.md)
+- [Registration Test Cases](test-cases/registration-tests.md)
+
+### Bug Reports
+- [Login Button Bug](bug-reports/sample-bug-report-1.md)
+
+---
+
+## 🔹 API Testing
+
+- [API Test Cases](api-tests/Api-test-cases.md)
+
+---
+
+# 📄 Resume
+
+[Download QA Portfolio PDF](Junior%20Manual%20Qa%20Portfolio.pdf)
+
+---
+
+# 🚀 Contacts
+
 - Email: testermanualqaai@gmail.com
+- Upwork: https://www.upwork.com/
+- Fiverr: https://www.fiverr.com/
+
+---
