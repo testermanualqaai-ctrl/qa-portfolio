@@ -68,7 +68,7 @@ Automation framework for SauceDemo using WebdriverIO and Page Object Model.
 - [Registration Test Cases](test-cases/registration-tests.md)
 
 ### Bug Reports
-- [Login Button Bug](bug-reports/sample-bug-report-1.md)
+- [Login Bug Reports](bug-reports/login-bug-reports.md)
 
 ---
 
